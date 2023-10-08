@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "React + Vant + TS 搭建大型单页面商城项目",
   "author": "sankeyangshu",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -62,6 +62,7 @@
     "@typescript-eslint/eslint-plugin": "^5.59.0",
     "@typescript-eslint/parser": "^5.59.0",
     "@vitejs/plugin-react": "^4.0.0",
+    "cnjm-postcss-px-to-viewport": "^1.0.0",
     "eslint": "^8.38.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
