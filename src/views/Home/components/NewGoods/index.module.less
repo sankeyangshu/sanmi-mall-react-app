@@ -1,0 +1,40 @@
+.newGoods {
+  box-sizing: border-box;
+  width: 100%;
+  .scrollView {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    .goods {
+      display: flex;
+      flex-direction: row;
+      .goods-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 5px;
+        .goods-image {
+          width: 80px;
+          height: 80px;
+        }
+        .goods-text {
+          width: 75px;
+          margin-top: 5px;
+          overflow: hidden;
+          font-size: 12px;
+          color: #666;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+        .goods-price {
+          margin-top: 5px;
+          font-size: 13px;
+          color: #157658;
+          span {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}

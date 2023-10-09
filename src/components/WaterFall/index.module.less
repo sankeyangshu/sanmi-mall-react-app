@@ -1,0 +1,25 @@
+.waterfall {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row nowrap;
+  align-content: flex-start;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px 5px;
+  .list {
+    width: 50%;
+    padding: 0 5px;
+    .list-item {
+      height: 0;
+      margin-bottom: 0;
+      overflow: hidden;
+      opacity: 0;
+    }
+    .show {
+      height: auto;
+      margin-bottom: 10px;
+      overflow: auto;
+      opacity: 1;
+    }
+  }
+}
